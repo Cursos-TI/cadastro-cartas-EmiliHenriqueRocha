@@ -9,24 +9,37 @@
     // Área para definição das variáveis para armazenar as propriedades das cidades
     int Carta1;
     Carta1=1;
+    char nomedacidadE[100]="vila velha";
     char letrA[8]="E";
     char EstadO[100]="Espiritosanto";
     char codigO[100]="E01";
+    char nomedacidadE[100]="vila velha";
+     // Área para exibição dos dados da cidade
     int populacaO;
+    populacaO=467722.00;
     float areA;
+    areA=210.25000;
     float pbI;
+    pbI=16300000.00;
     int numerosdepontosturisticoS;
-  
+    numerosdepontosturisticoS=20;
+    char nomedacidadE[100]="vila velha";
+    
     int carta2;
     carta2=2;
     char letRa[8]="G";
     char EstaDo[100]="Goias";
     char codiGo[100]="G02";
+    char nomedacidaDe[100]="Goiania";
+    // Área para exibição dos dados da cidade
     int populacAo;
+    populacAo=1437366;
     float arEa;
+    arEa=72929000;
     float pBi;
+    pBi=77700000.00;
     int numerosdepontosturisticOs;
-  
+    numerosdepontosturisticOs=40;
     // Área para entrada de dados
       
     //carta1
@@ -55,7 +68,7 @@
     printf("A sua populacaO e :%d\n",populacaO);
 
     printf("Digite a sua areA:");              
-    scanf(" %f",&area1);
+    scanf(" %f",&areA);
     printf("A area1 e:%.2f\n",areA);
 
     printf("Digite o pbI :");
@@ -96,7 +109,7 @@
     printf("A sua arEa e:%.2f\n",arEa);
 
     printf("Digite o seu pBi:");
-    scanf("%f",&pbi2);
+    scanf("%f",&pBi);
     printf("O seu pBi e:%.2f\n",pBi);
     
     printf("Digite o numerosdepontosturisticOs:");
@@ -105,18 +118,6 @@
 
     // Área para exibição dos dados da cidade
     //Carta 1
-    char nomedacidadE[100]="vila velha";
-    populacaO=467722.00;
-    areA=210.25000;
-    pbI=16300000.00;
-    numerosdepontosturisticoS=20;
-  
-    //Carta2
-    char nomedacidaDe[100]="Goiania";
-    populacAo=1437366;
-    arEa=72929000;
-    pBi=77700000.00;
-    numerosdepontosturisticOs=40;
-  
+   
 return 0;
 } 
